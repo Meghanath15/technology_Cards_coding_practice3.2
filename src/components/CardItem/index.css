@@ -1,0 +1,67 @@
+.card-1 {
+  border-top: 5px solid #ff4f64;
+}
+
+.card-2 {
+  border-top: 5px solid #00a8e7;
+}
+
+.card-3 {
+  border-top: 5px solid #44c4a1;
+}
+
+.card-4 {
+  border-top: 5px solid #fcc200;
+}
+
+/* Write CSS code here. */
+@media screen and (max-width: 767px) {
+  .each-card-container {
+    border-radius: 15px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin: 20px;
+    width: 90%;
+    min-height: 35vh;
+    padding: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .each-card-container {
+    border-radius: 15px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding: 20px;
+    max-width: 40%;
+    min-height: 35vh;
+    margin: 20px;
+  }
+}
+.heading {
+  color: #171f46;
+  font-size: 18px;
+  font-family: 'Roboto';
+  margin: 5px;
+}
+.description {
+  color: #64748b;
+  font-size: 16px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+}
+.image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin-top: 20px;
+}
+.image {
+  max-width: 50px;
+  max-height: 50px;
+}
